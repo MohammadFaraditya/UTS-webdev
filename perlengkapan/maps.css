@@ -1,0 +1,64 @@
+* {padding: 0; margin: 0;}
+
+html {background : white;}
+
+.petautama {width: 1535px; margin:auto;}
+
+header {height: 80px; background:white; overflow:hidden;}
+
+header .kiri .tengah {width: 635px; float: left;}
+
+header .kiri img {width : 70px; height: 60px; margin-top: 15px; margin-left: 70px;
+                   float: left; border-radius: 7px;
+}
+
+header .tengah {float: left; font-size: 15px; color:black; margin-left: 20px;
+               margin-top: 22px; font-family: arial;
+}
+
+nav {z-index: 1;}
+
+nav ul li { float: left; list-style: none; background:white;}
+
+nav ul li a {margin-right: 15px;
+	text-decoration: none;
+	padding: 3px 30px;
+	color:black;
+    
+}
+
+nav ul li ul {display: none;}
+nav ul li:hover > ul {display:block;}
+nav {position: sticky; background:white;
+   height: 40px;
+   line-height: 40px;
+}
+
+nav ul li ul {position: absolute;}
+
+ nav ul li ul li {float:none; position: relative; padding: 20px;}
+
+ nav ul li:hover {background:white;}
+
+ nav ul li a:hover {color:blue;}
+
+ nav ul li ul  li ul {left:100%; top: 0;
+	width: 250px;
+    
+}
+
+
+
+nav ul {float: right; padding-right: 60px;}
+
+
+.kanan {float: right; margin-top: -60px; left: -20px;}
+
+footer h3{background:blue; color: #fff; 
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+    padding: 20px;
+    width: 1500px;
+    
+}

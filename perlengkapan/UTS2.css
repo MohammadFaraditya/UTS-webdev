@@ -1,0 +1,673 @@
+* {padding: 0; margin: 0;}
+
+html {background : white;}
+
+.utama {width: 1535px; margin:auto;}
+
+header {height: 80px; background:white; overflow:hidden;}
+
+header .kiri .tengah {width: 635px; float: left;}
+
+header .kiri img {width : 70px; height: 60px; margin-top: 15px; margin-left: 70px;
+                   float: left; border-radius: 7px;
+}
+
+header .tengah {float: left; font-size: 15px; color:black; margin-left: 20px;
+               margin-top: 22px; font-family: arial;
+}
+
+nav {z-index: 1;}
+
+nav ul li { float: left; list-style: none; background:white;}
+
+nav ul li a {margin-right: 15px;
+	text-decoration: none;
+	padding: 3px 30px;
+	color:black;
+}
+
+nav ul li ul {display: none;}
+nav ul li:hover > ul {display:block;}
+nav {position: sticky; background:white;
+   height: 40px;
+   line-height: 40px;
+}
+
+nav ul li ul {position: absolute;}
+
+ nav ul li ul li {float:none; position: relative;padding: 20px;}
+
+ nav ul li:hover {background:white;}
+
+ nav ul li a:hover {color:blue;}
+
+ nav ul li ul  li ul {left:100%; top: 0;
+	width: 250px;
+}
+
+nav ul {float: right; padding-right: 60px;}
+
+
+.kanan {float: right; margin-top: -60px; left: -20px;}
+
+.image {width: 1535px; margin: auto; position: relative;}
+
+img {width: 1535px; height:auto; opacity: 0.6; display: block;}
+
+.title2 {position: absolute; top:50%; left: 40%; font-size: 40px; color: black;
+    transform:translate(-50%,-50%); white-space:nowrap; font-family: arial; color: black;}
+
+.title2 h3 {display:block; text-align:center; font-size: 20px; background-color: blue;
+    padding: 8px; cursor: pointer;}
+
+.title2 h1 {font-size: 55px; margin-top: 10px;}
+.title2 h2 {font-size: 20px; margin-top: 30px;}
+
+.title2 h3 {font-size: 15px; margin-top: 40px; border: 2px solid blue; width: 110px; 
+            padding: 10px; color:white; transition: 0.5s background ease-out, 0.5s transform ease-in 0.5s;
+}
+
+.title2 h3:hover {background: none; color: blue;}
+
+
+
+.title2 h1 a {border-top: 5px solid black; padding-top: 25px;}
+
+.form1 input { height: 35px; margin-top: -1px; border: none; border-right: 2px solid #bdc3c7; width: 200px;}
+
+select {height: 39px; margin-left: 2px; margin-right: 5px; border: none; border-right:2px solid #bdc3c7; width: 200px; padding : 5px; color: #bdc3c7;}
+
+.form1 {position:relative; top: 140%; left: 20%; float: left; background: white; padding: 10px; border-bottom: 5px solid blue; width: 800px; 
+        margin-top: 5px;
+}
+
+.button input {border: 2px solid blue; width: 120px; font-size: 13px; float: right; font-family: arial;
+    background: blue; color : white; margin-left: 665px; text-align: center;transition: 0.5s background ease-out, 0.5s transform ease-in 0.5s;
+    margin-top: -38px; cursor: pointer; display:block; padding: 12px; position: absolute; padding-left: 21px; padding-right: 25px; padding-top:7px;
+    
+}
+
+input:hover {background: none; color: blue;}
+
+.form1 {position: absolute; top:95%; left: 50%; font-size: 40px; color: black;
+    transform:translate(-50%,-50%); white-space:nowrap; font-family: arial; color: black;}
+
+.t1 {text-align: center; font-family: arial; }
+
+.t1 h5 {color: #63cdda}
+
+* {padding: 0; margin: 0;}
+
+html {background : white;}
+
+.utama {width: 1535px; margin:auto;}
+
+header {height: 80px; background:white; overflow:hidden;}
+
+header .kiri .tengah {width: 635px; float: left;}
+
+header .kiri img {width : 70px; height: 60px; margin-top: 15px; margin-left: 70px;
+                   float: left; border-radius: 7px;
+}
+
+header .tengah {float: left; font-size: 15px; color:black; margin-left: 20px;
+               margin-top: 22px; font-family: arial;
+}
+
+nav {z-index: 1;}
+
+nav ul li { float: left; list-style: none; background:white;}
+
+nav ul li a {margin-right: 15px;
+	text-decoration: none;
+	padding: 3px 30px;
+	color:black;
+    
+}
+
+nav ul li ul {display: none;}
+nav ul li:hover > ul {display:block;}
+nav {position: sticky; background:white;
+   height: 40px;
+   line-height: 40px;
+}
+
+nav ul li ul {position: absolute;}
+
+ nav ul li ul li {float:none; position: relative; padding: 20px;}
+
+ nav ul li:hover {background:white;}
+
+ nav ul li a:hover {color:blue;}
+
+ nav ul li ul  li ul {left:100%; top: 0;
+	width: 250px;
+    
+}
+
+
+
+nav ul {float: right; padding-right: 60px;}
+
+
+.kanan {float: right; margin-top: -60px; left: -20px;}
+
+.image {width: 1535px; margin: auto; position: relative;}
+
+img {width: 1535px; height:auto; opacity: 0.6; display: block;}
+
+.title2 {position: absolute; top:50%; left: 40%; font-size: 40px; color: black;
+    transform:translate(-50%,-50%); white-space:nowrap; font-family: arial; color: black;}
+
+.title2 h3 {display:block; text-align:center; font-size: 20px; background-color: blue;
+    padding: 8px; cursor: pointer;}
+
+.title2 h1 {font-size: 55px; margin-top: 10px;}
+.title2 h2 {font-size: 20px; margin-top: 30px;}
+
+.title2 h3 {font-size: 15px; margin-top: 40px; border: 2px solid blue; width: 110px; 
+            padding: 10px; color:white; transition: 0.5s background ease-out, 0.5s transform ease-in 0.5s;
+}
+
+.title2 h3:hover {background: none; color: blue;}
+
+
+
+.title2 h1 a {border-top: 5px solid black; padding-top: 25px;}
+
+.form1 input { height: 35px; margin-top: -1px; border: none; border-right: 2px solid #bdc3c7; width: 200px;}
+
+select {height: 39px; margin-left: 2px; margin-right: 5px; border: none; border-right:2px solid #bdc3c7; width: 200px; 
+        padding : 5px; color: #bdc3c7; } 
+
+
+
+.form1 {position:relative; top: 140%; left: 20%; float: left; background: white; padding: 10px; border-bottom: 5px solid blue; width: 800px; 
+        margin-top: 5px;
+}
+
+.button input {border: 2px solid blue; width: 120px; font-size: 13px; float: right; font-family: arial;
+         background: blue; color : white; margin-left: 665px; text-align: center;transition: 0.5s background ease-out, 0.5s transform ease-in 0.5s;
+         margin-top: -38px; cursor: pointer; display:block; padding: 12px; position: absolute; padding-left: 21px; padding-right: 25px; padding-top:7px;
+         
+}
+
+input:hover {background: none; color: blue;}
+
+.form1 {position: absolute; top:95%; left: 50%; font-size: 40px; color: black;
+    transform:translate(-50%,-50%); white-space:nowrap; font-family: arial; color: black;}
+
+.t1 {text-align: center; font-family: arial; }
+
+.t1 h5 {color: #63cdda}
+
+.east1 img {opacity: 1; width: 100%; height:220px;}
+
+.east1 {width: 352px;}
+
+.east1 {float:left; margin: 15px;}
+.east1 {position: relative;}
+
+.east2 img {opacity: 1; width: 100%; height:220px;}
+
+.east2 {width: 352px;}
+
+.east2 {float:left; margin: 15px;}
+.east2 {position: relative;}
+
+.east3 img {opacity: 1; width: 100%; height:220px;}
+
+.east3 {width: 352px;}
+
+.east3 {float:left; margin: 15px;}
+.east3 {position: relative;}
+
+.east4 img {opacity: 1; width: 100%; height:220px;}
+
+.east4 {width: 352px;}
+
+.east4 {float:left; margin: 15px;}
+.east4 {position: relative;}
+
+.pagination {text-align: center; padding: 10px;}
+
+.pagination a { padding: 5px; text-decoration: none; color: silver; background-color: silver; border-radius: 50%; font-size: 2px;
+                
+}
+.pagination a:hover:not(.active) {background-color:silver; border-radius: 50%; color: silver;}
+.pagination a.active {background-color: blue; color:blue;border-radius: 50%;}
+
+.judul {position: absolute; top:95%; left: 20%; font-size: 15px; color: black;
+    transform:translate(-50%,-50%); white-space:nowrap; font-family: arial; color: white;  }
+
+.east2 .judul {left: 14%; color: black;}
+.east3 .judul {left: 12%;}
+.east4 .judul {left: 17%;}
+
+.simbol {position: absolute;  top:75%; color: white; font-size: 30px; margin-left: 290px; border: 3px solid white;
+    padding : 2px 6px; border-radius: 20%; 
+}
+.simbol:hover {background: #bdc3c7; }
+
+.east2 .simbol {color: black; border: 3px solid black;}
+
+.texttengah {text-align: center; margin-top: 50px; font-family: arial; padding-top: 50px;}
+.texttengah h5 {margin-bottom: 15px;color:#63cdda;}
+.texttengah h3 {margin-bottom: 50px;}
+
+.tengahbwh {width: 1535px; height: 700px; background: #dfe6e9}
+.tengah1 { width: 350px; height:450px; background: white; float: left; border-radius: 7px;
+           margin-left: 200px; font-family: arial;
+}
+.tengah2 { width: 350px; height:450px; background: white; float: left;border-radius: 7px;
+           margin-left: 50px;font-family: arial;
+}
+.tengah3 { width: 350px; height:450px; background: white; float: right;border-radius: 7px;
+           margin-right: 185px;font-family: arial;
+}
+
+.tengah1 img {width: 350px; height: 250px; opacity: 1; border-top-left-radius: 7px;border-top-right-radius: 7px; position: absolute; }
+.tengah1 h5 { margin-top: 20px; font-size: 18px; padding: 5px; text-decoration: none; margin-left: 5px;} 
+.tengah1 h6 {font-size: 15px; color: blue; margin-bottom: 10px;padding: 5px; margin-top: -3px;margin-left: 5px;}
+.tengah1 p {font-size: 15px;padding: 5px;margin-left: 5px; margin-bottom: 3px;}
+
+.tengah1 .kirteng { width: 175px; float: left;}
+.tengah1.kanteng {width: 175px; float: right;}
+
+.tengah1 .kirteng h5 {text-align: center; border-top: 1px solid black; border-right: 1px solid black;font-family: arial;
+                      font-size: 15px; margin-left: -0.1px; padding-top: 8px; padding-bottom: 5px;  cursor: pointer;
+}
+.tengah1 .kanteng a {text-align: center; border-top: 1px solid black; cursor: pointer; text-decoration: none;
+                      font-size: 15px;padding-top: 8px;padding-bottom: 5px; color: black; margin-top: 20px; 
+                      display: inline-block; padding-left: 37.1px; padding-right: 30.4px; margin-left: -10px;
+                      font-family: arial;
+}
+
+.tengah1 .kirteng h5:hover { color: blue;}
+.tengah1 .kanteng a:hover { color: blue;}
+
+
+.sys { position: absolute; color: white; top: 5%; left: 10%;}
+.tengah1 {position: relative;}
+.txt { position: relative; top: 55%}
+
+.sys h4 { position: absolute; float:right; left: 250%; text-align: center; background: blue; padding: 15px;
+          border-radius: 100%; font-size: 12px; top: -50%;
+}
+
+.tengah2 img {width: 350px; height: 250px; opacity: 1; border-top-left-radius: 7px;border-top-right-radius: 7px; position: absolute; }
+.tengah2 h5 { margin-top: 20px; font-size: 18px; padding: 5px; text-decoration: none; margin-left: 5px;} 
+.tengah2 h6 {font-size: 15px; color: blue; margin-bottom: 10px;padding: 5px; margin-top: -3px;margin-left: 5px;}
+.tengah2 p {font-size: 15px;padding: 5px;margin-left: 5px; margin-bottom: 3px;}
+
+.tengah2 .kirteng { width: 175px; float: left;}
+.tengah2.kanteng {width: 175px; float: right;}
+
+.tengah2 .kirteng h5 {text-align: center; border-top: 1px solid black; border-right: 1px solid black;font-family: arial;
+                      font-size: 15px; margin-left: -0.1px; padding-top: 8px; padding-bottom: 5px;  cursor: pointer;
+}
+.tengah2 .kanteng a {text-align: center; border-top: 1px solid black; cursor: pointer; text-decoration: none;
+                      font-size: 15px;padding-top: 8px;padding-bottom: 5px; color: black; margin-top: 20px; 
+                      display: inline-block; padding-left: 35px; padding-right: 30.4px; margin-left: -10px;
+                      font-family: arial;
+}
+
+.tengah2 .kirteng h5:hover { color: blue;}
+.tengah2 .kanteng a:hover { color: blue;}
+
+
+.sys { position: absolute; color: white; top: 5%; left: 10%;}
+.tengah2 {position: relative;}
+.txt { position: relative; top: 55%}
+
+.sys h4 { position: absolute; float:right; left: 250%; text-align: center; background: blue; padding: 15px;
+          border-radius: 100%; font-size: 12px; top: -50%;
+}
+
+.tengah3 img {width: 350px; height: 250px; opacity: 1; border-top-left-radius: 7px;border-top-right-radius: 7px; position: absolute; }
+.tengah3 h5 { margin-top: 20px; font-size: 18px; padding: 5px; text-decoration: none; margin-left: 5px;} 
+.tengah3 h6 {font-size: 15px; color: blue; margin-bottom: 10px;padding: 5px; margin-top: -3px;margin-left: 5px;}
+.tengah3 p {font-size: 15px;padding: 5px;margin-left: 5px; margin-bottom: 3px;}
+
+.tengah3 .kirteng { width: 175px; float: left;}
+.tengah3.kanteng {width: 175px; float: right;}
+
+.tengah3 .kirteng h5 {text-align: center; border-top: 1px solid black; border-right: 1px solid black;font-family: arial;
+                      font-size: 15px; margin-left: -0.1px; padding-top: 8px; padding-bottom: 5px;  cursor: pointer;
+}
+.tengah3 .kanteng a {text-align: center; border-top: 1px solid black; cursor: pointer; text-decoration: none;
+                      font-size: 15px;padding-top: 8px;padding-bottom: 5px; color: black; margin-top: 20px; 
+                      display: inline-block; padding-left: 35px; padding-right: 30.4px; margin-left: -10px;
+                      font-family: arial;
+}
+
+.tengah3 .kirteng h5:hover { color: blue;}
+.tengah3 .kanteng a:hover { color: blue;}
+
+
+.sys { position: absolute; color: white; top: 5%; left: 10%;}
+.tengah3 {position: relative;}
+.txt { position: relative; top: 55%}
+
+.sys h4 { position: absolute; float:right; left: 250%; text-align: center; background: blue; padding: 15px;
+          border-radius: 100%; font-size: 12px; top: -50%;
+}
+
+.service {width: 100%; height: 1000px; background: white; font-family:Arial;}
+
+.bst h5 {text-align: center; padding-top: 50px; color: blue;}
+.bst h3 {text-align: center;}
+
+.bdr {margin-top: 60px;}
+
+.bdr1 {width: 350px; height: 350px; border:2px solid black; border-radius: 7px; float: left; margin-left: 185px; margin-right: 50px; 
+
+}
+.bdr2 {width: 350px; height: 350px; border:2px solid black; border-radius: 7px; float: left; margin-right: 30px; margin-bottom: 50px;}
+.bdr3 {width: 350px; height: 350px; border:2px solid black; border-radius: 7px; float: right; margin-right: 190px;}
+
+.bdr img {width: 100px; height: 80px; margin-left: 120px; margin-top: 50px;}
+
+.bdr h3{margin-top: 50px; text-align: center; margin-left: 10px; margin-right: 10px;}
+.bdr p {text-align: center; margin-left: 10px; margin-right: 10px;}
+.grs {text-align: center; padding-top: 50px;}
+
+.servicebwhkiri {width: 400px; height: 350px; background: white; float: left; margin-left: 25%; margin-top: 50px; font-family: arial;}
+.servicebwhkiri h4 {font-size: 20px;}
+.servicebwhkiri input {border: 2px solid blue; width: 120px; font-size: 13px; float: right; font-family: arial;
+    background: blue; color : white;  text-align: center;transition: 0.5s background ease-out, 0.5s transform ease-in 0.5s;
+     cursor: pointer; display:block; padding: 12px; position: absolute; padding-left: 21px; padding-right: 25px; padding-top:10px;
+    
+}
+
+.servicebwhkiri input:hover {background: none; color: blue;}
+
+.servicebwhknan {width: 400px; height: 350px; background: white; float: right; margin-top: 100px; margin-right: 20%;}
+
+.span1 p {width: 350px; background: none; border: none; border: 2px solid black; padding:5px; text-align:left; cursor: pointer; margin-bottom: -15px; }
+.span1 span {display:none; width: 340px; margin-top: 10px;}
+.span1:hover span {display: inline-block; border-right: 2px solid black;border-left: 2px solid black; padding: 10px; border-bottom: 2px solid black; 
+                   margin-top: 8px; margin-bottom: -20px; padding-bottom: 7px;
+}
+
+.span2 p {width: 350px; background: none; border: none; border: 2px solid black; padding:5px; text-align:left; cursor: pointer; margin-top: 8px; border-top: none;}
+.span2 span {display:none; width: 340px; margin-top: -17px;}
+.span2:hover span {display: inline-block; border-right: 2px solid black;border-left: 2px solid black; padding: 10px; border-bottom: 2px solid black;
+                   margin-bottom: -10px; margin-top: 7px;
+}
+
+.span3 p {width: 350px; background: none; border: none; border: 2px solid black; padding:5px; text-align:left; cursor: pointer; margin-bottom: -17px; 
+          margin-top: 9px; border-top: none;
+}
+.span3 span {display:none; width: 340px; margin-top: 10px;}
+.span3:hover span {display: inline-block; border-right: 2px solid black;border-left: 2px solid black; padding: 10px; border-bottom: 2px solid black; 
+                   margin-top: 8px; margin-bottom: -20px;
+}
+            
+            
+.pagination1 { width: 10px; height: 10px; background: silver; color: silver; border-radius: 50%; font-size: 2px;
+               padding: 3px 4px 3px 4px; margin-left: 320px; margin-top: -25px;
+}
+.pagination1:hover {background: blue;color: blue;}
+
+.pagination2 { width: 10px; height: 10px; background: silver; color: silver; border-radius: 50%; font-size: 2px;
+               padding: 3px 4px 3px 4px; margin-left: 320px; margin-top: -25px;
+}
+.pagination2:hover {background: blue;color: blue;}
+
+.pagination3 { width: 10px; height: 10px; background: silver; color: silver; border-radius: 50%; font-size: 2px;
+               padding: 3px 4px 3px 4px; margin-left: 320px; margin-top: -25px;
+}
+.pagination3:hover {background: blue;color: blue;}
+
+.vd video { width: 1535px; height: 900px;margin-top: 50px; float: left; margin-bottom: 50px; opacity: 0.7; position: relative; }
+.ply a { text-decoration: none; text-align: center;  font-size: 50px;  left: 50%; color: black;background: none; 
+          border-radius: 100%; padding: 10px 20px 10px 25px; margin-left: -50px; border: 2px solid white; 
+}
+.ply h3 { text-align: center; font-size: 30px; font-family: arial; margin-left: -250px;}
+.ply {position: absolute; left: 49%; margin-top: 520px;}
+
+.ply a:hover {background: silver;}
+
+.member { width: 100%; height: 700px; margin-top: 500px; margin-bottom: 50px;}
+.member h5 {margin-top: 80px; text-align: center; font-size: 15px; font-family: arial;}
+.member h3 {text-align:center; font-size: 25px; font-family: arial; margin-bottom: 50px;}
+
+.member1 {width: 350px; height: 550px; background: silver; float: left; margin-left: 200px; border-radius: 7px;}
+.member2 {width: 350px; height: 550px; background: silver; float: left; margin-left: 50px; margin-right: 50px;border-radius: 7px;}
+.member3 {width: 350px; height: 550px; background: silver; float: right;margin-right: 185px;border-radius: 7px;}
+
+
+.jdl1 { text-align: center; background: blue; padding-top: 5px;border-top-left-radius: 7px;border-top-right-radius: 7px; color:white; 
+        margin-bottom: 20px;
+}
+.jdl1 h3 { margin-top: 30px;}
+.jdl1 h4 { font-size: 35px; margin-top: -20px;}
+.jdl1 h5 { margin-top:2px; padding-bottom: 25px; }
+.member h5{color: blue;}
+
+.member .tx a {float:left; color: black; text-decoration: none; margin-left: 25px; padding: 18px; text-align: center;}
+
+.txb input {border: 2px solid blue; width: 120px; font-size: 13px; float: right; font-family: arial;
+    background: blue; color : white; text-align: center;transition: 0.5s background ease-out, 0.5s transform ease-in 0.5s;
+    cursor: pointer; display:block; position: absolute; padding: 15px; margin-top: 285px; margin-left: 120px; border-radius: 7px;
+    
+}
+input:hover {background: none; color: blue;}
+
+.klmbwh { width:100%; height: 300px; background: white; margin-top: 600px; text-align: center; font-family: arial;}
+.klmbwh h5{color:blue;}
+.klmbwh a { background: blue; color: white; text-decoration: none; padding: 12px; transition: 0.5s background ease-out, 0.5s transform ease-in 0.5s;}
+.klmbwh a:hover {background: none; border: 2px solid blue;}
+
+.usefull {width: 100%; height: 400px; background: white; font-family: arial;}
+.use1 {width: 450px; height: 400px; background: white; float: left; margin-left: 200px;}
+.use2 {width: 350px; height: 400px; background: white;float: left; margin-left: 10px;}
+.use3 {width: 350px; height: 400px; background: white;float: left; margin-left: -50px; }
+
+.atas { margin-top: 10px;}
+.atas img {width: 50px; height: 50px; float: left;}
+.gmb h2 {font-family: arial; float: left; margin-top: 15px; margin-left: 15px;}
+
+.use1 .text {float: left; margin-top: 50px; margin-bottom: 15px;}
+
+.logoo {cursor: pointer;}
+.logoo1 { width:25px; height:25px; float: left;}
+.logoo1 img { width: 100%; height: 100%; background: white;}
+.logoo1:hover { background: black; border-radius: 50%;}
+
+.logoo2 { width:25px; height:25px; float: left; margin-left:10px;}
+.logoo2 img { width: 100%; height: 100%; background: white;}
+.logoo2:hover { background: black; border-radius: 50%;}
+
+.logoo3 { width:25px; height:25px; float: left; margin-left:10px;}
+.logoo3 img { width: 100%; height: 100%; background: white;}
+.logoo3:hover { background: black; border-radius: 50%;}
+
+.logoo4 { width:25px; height:25px; float: left; margin-left:10px;}
+.logoo4 img { width: 100%; height: 100%; background: white;}
+.logoo4:hover { background: black; border-radius: 50%;}
+
+.logoo5 { width:25px; height:25px; float: left; margin-left:10px;}
+.logoo5 img { width: 100%; height: 100%; background: white;}
+.logoo5:hover { background: black; border-radius: 50%;}
+
+.use2 .txt h2 {margin-left: 20px; }
+.use2 .txt { margin-top: -195px;}
+.use2 .txt a { float: left; text-decoration: none; color: black; padding: 20px;}
+.use2 .txt a:hover {color: blue}
+
+.use2 .txt .a4 { padding-left: 35px;}
+
+.use3 h2 {margin-top: 25px; margin-bottom: 20px;}
+
+.use3 p { color: blue; cursor: pointer;}
+.use3 .teng p {color: black;}
+.use3 p b {color: black;}
+
+.fill {width: 1535px; height: 500px; text-align: center; margin-bottom: 100px;}
+.fill .txt {width: auto; height: auto;}
+.fill .txt { margin-top: -250px;}
+
+.fill .form {width: auto; margin-top: 350px;}
+
+.fill input { width: 125px; height: 25px; border: 1px solid black; margin-right: 25px; padding-left: 10px;}
+
+.fill select {width: 125px; height: 28px; border: 1px solid black; margin-right: 25px;}
+
+.buttonbwh input { border: 2px solid blue; width: 120px; font-size: 13px;  font-family: arial;
+    background: blue; color : white; margin-left: 700px; text-align: center;transition: 0.5s background ease-out, 0.5s transform ease-in 0.5s;
+    margin-top: 50px; cursor: pointer; display:block; padding: 12px; padding-left: 21px; padding-right: 25px; padding-top:7px; padding-bottom: 20px;
+    }
+
+.buttonbwh input:hover { background: white; border: 1px solid blue; color: blue;}
+
+.tombolbwh {width: auto; height: 100px; background: silver; padding-bottom: 10px;}
+
+.live a { float: left; text-decoration: none;margin-right: 100px; margin-left: 180px;margin-top: 20px; background: red; padding: 25px; border-radius: 7px;
+        color: black; padding-left: 50px; padding-right: 50px;transition: 0.5s background ease-out, 0.5s transform ease-in 0.5s;
+}
+.live a:hover {background: none; border: 1px solid red;}
+
+.download a { float: left; text-decoration: none;margin-right: 100px; margin-left: 50px;margin-top: 20px; background: green; padding: 25px; border-radius: 7px;
+              color: black; padding-left: 50px; padding-right: 50px;transition: 0.5s background ease-out, 0.5s transform ease-in 0.5s;
+}
+.download a:hover {background: none; border: 1px solid green;}
+
+.fullsz a { float: left; text-decoration: none;margin-right: 100px; margin-left: 50px;margin-top: 20px; background: blue; padding: 25px; border-radius: 7px;
+            color: white;transition: 0.5s background ease-out, 0.5s transform ease-in 0.5s;
+}
+.fullsz a:hover {background: none; border: 1px solid blue;}
+
+.php a { float: left; text-decoration: none;margin-right: 100px; margin-left: 50px;margin-top: 20px; background: black; padding: 25px; border-radius: 7px;
+         color: white;transition: 0.5s background ease-out, 0.5s transform ease-in 0.5s;
+}
+.php a:hover {background: none; border: 1px solid black;}
+
+
+
+
+footer .ft {background:blue; color: #fff; 
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+    padding: 25px;
+    
+}
+
+
+
+
+.texttengah {text-align: center; margin-top: 50px; font-family: arial; padding-top: 50px;}
+.texttengah h5 {margin-bottom: 15px;color:#63cdda;}
+.texttengah h3 {margin-bottom: 50px;}
+
+.tengahbwh {width: 1535px; height: 700px; background: #dfe6e9}
+.tengah1 { width: 350px; height:450px; background: white; float: left; border-radius: 7px;
+           margin-left: 200px; font-family: arial;
+}
+.tengah2 { width: 350px; height:450px; background: white; float: left;border-radius: 7px;
+           margin-left: 50px; font-family: arial;
+}
+.tengah3 { width: 350px; height:450px; background: white; float: right;border-radius: 7px;
+           margin-right: 185px; font-family: arial;
+}
+
+.tengah1 img {width: 350px; height: 250px; opacity: 1; border-top-left-radius: 7px;border-top-right-radius: 7px; position: absolute; }
+.tengah1 h5 { margin-top: 20px; font-size: 18px; padding: 5px; text-decoration: none; margin-left: 5px;} 
+.tengah1 h6 {font-size: 15px; color: blue; margin-bottom: 10px;padding: 5px; margin-top: -3px;margin-left: 5px;}
+.tengah1 p {font-size: 15px;padding: 5px;margin-left: 5px;}
+
+.tengah1 .kirteng { width: 175px; float: left;}
+.tengah1.kanteng {width: 175px; float: right;}
+
+.tengah1 .kirteng h5 {text-align: center; border-top: 1px solid black; border-right: 1px solid black;
+                      font-size: 15px; margin-left: -0.1px; padding-top: 8px; padding-bottom: 7px;  cursor: pointer;
+}
+.tengah1 .kanteng a {text-align: center; border-top: 1px solid black; cursor: pointer; text-decoration: none;
+    font-size: 15px;padding-top: 8px;padding-bottom: 5px; color: black; margin-top: 20px; 
+    display: inline-block; padding-left: 37.1px; padding-right: 30.4px; margin-left: -10px;
+}
+
+.tengah1 .kirteng h5:hover { color: blue;}
+.tengah1 .kanteng a:hover { color: blue;}
+
+.sys { position: absolute; color: white; top: 5%; left: 10%;}
+.tengah1 {position: relative;}
+.txt { position: relative; top: 55%}
+
+.sys h4 { position: absolute; float:right; left: 250%; text-align: center; background: blue; padding: 15px;
+          border-radius: 100%; font-size: 12px; top: -50%;
+}
+
+.tengah2 img {width: 350px; height: 250px; opacity: 1; border-top-left-radius: 7px;border-top-right-radius: 7px; position: absolute; }
+.tengah2 h5 { margin-top: 20px; font-size: 18px; padding: 5px; text-decoration: none; margin-left: 5px;} 
+.tengah2 h6 {font-size: 15px; color: blue; margin-bottom: 10px;padding: 5px; margin-top: -3px;margin-left: 5px;}
+.tengah2 p {font-size: 15px;padding: 5px;margin-left: 5px;}
+
+.tengah2 .kirteng { width: 175px; float: left;}
+.tengah2.kanteng {width: 175px; float: right;}
+
+.tengah2 .kirteng h5 {text-align: center; border-top: 1px solid black; border-right: 1px solid black;
+                      font-size: 15px; margin-left: -0.1px; padding-top: 8px; padding-bottom: 7px;  cursor: pointer;
+}
+.tengah2 .kanteng a {text-align: center; border-top: 1px solid black; cursor: pointer; text-decoration: none;
+    font-size: 15px;padding-top: 8px;padding-bottom: 5px; color: black; margin-top: 20px; 
+    display: inline-block; padding-left: 35px; padding-right: 30.4px; margin-left: -10px;
+}
+
+.tengah2 .kirteng h5:hover { color: blue;}
+.tengah2 .kanteng a:hover { color: blue;}
+
+.sys { position: absolute; color: white; top: 5%; left: 10%;}
+.tengah2 {position: relative;}
+.txt { position: relative; top: 55%}
+
+.sys h4 { position: absolute; float:right; left: 250%; text-align: center; background: blue; padding: 15px;
+          border-radius: 100%; font-size: 12px; top: -50%;
+}
+
+.tengah3 img {width: 350px; height: 250px; opacity: 1; border-top-left-radius: 7px;border-top-right-radius: 7px; position: absolute; }
+.tengah3 h5 { margin-top: 20px; font-size: 18px; padding: 5px; text-decoration: none; margin-left: 5px;} 
+.tengah3 h6 {font-size: 15px; color: blue; margin-bottom: 10px;padding: 5px; margin-top: -3px;margin-left: 5px;}
+.tengah3 p {font-size: 15px;padding: 5px;margin-left: 5px;}
+
+.tengah3 .kirteng { width: 175px; float: left;}
+.tengah3.kanteng {width: 175px; float: right;}
+
+.tengah3 .kirteng h5 {text-align: center; border-top: 1px solid black; border-right: 1px solid black;
+                      font-size: 15px; margin-left: -0.1px; padding-top: 8px; padding-bottom: 7px;  cursor: pointer;
+}
+.tengah3 .kanteng a {text-align: center; border-top: 1px solid black; cursor: pointer; text-decoration: none;
+    font-size: 15px;padding-top: 8px;padding-bottom: 5px; color: black; margin-top: 20px; 
+    display: inline-block; padding-left: 35px; padding-right: 30.4px; margin-left: -10px;
+}
+
+.tengah3 .kirteng h5:hover { color: blue;}
+.tengah3 .kanteng a:hover { color: blue;}
+
+.sys { position: absolute; color: white; top: 5%; left: 10%;}
+.tengah3 {position: relative;}
+.txt { position: relative; top: 55%}
+
+.sys h4 { position: absolute; float:right; left: 250%; text-align: center; background: blue; padding: 15px;
+          border-radius: 100%; font-size: 12px; top: -50%;
+}
+
+.service {width: 100%; height: 900px; background: white; font-family:Arial;}
+
+.bst h5 {text-align: center; padding-top: 50px; color: blue;}
+.bst h3 {text-align: center;}
+
+.bdr {margin-top: 60px;}
+
+.bdr1 {width: 350px; height: 350px; border:2px solid black; border-radius: 7px; float: left; margin-left: 200px; margin-right: 50px; 
+
+}
+.bdr2 {width: 350px; height: 350px; border:2px solid black; border-radius: 7px; float: left; margin-right: 30px;}
+.bdr3 {width: 350px; height: 350px; border:2px solid black; border-radius: 7px; float: right; margin-right: 175px;}
+
+.bdr img {width: 100px; height: 80px; margin-left: 120px; margin-top: 50px;}
+
+.bdr h3{margin-top: 50px; text-align: center; margin-left: 10px; margin-right: 10px;}
+.bdr p {text-align: center; margin-left: 10px; margin-right: 10px;}

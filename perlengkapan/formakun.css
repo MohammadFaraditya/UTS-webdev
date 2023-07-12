@@ -1,0 +1,85 @@
+* {padding: 0; margin: 0;}
+
+html {background : white;}
+
+.utama {width: 1535px; margin:auto;}
+
+header {height: 80px; background:white; overflow:hidden;}
+
+header .kiri .tengah {width: 635px; float: left;}
+
+header .kiri img {width : 70px; height: 60px; margin-top: 15px; margin-left: 70px;
+                   float: left; border-radius: 7px;
+}
+
+header .tengah {float: left; font-size: 15px; color:black; margin-left: 20px;
+               margin-top: 22px; font-family: arial;
+}
+
+nav {z-index: 1;}
+
+nav ul li { float: left; list-style: none; background:white;}
+
+nav ul li a {margin-right: 15px;
+	text-decoration: none;
+	padding: 3px 30px;
+	color:black;
+    
+}
+
+nav ul li ul {display: none;}
+nav ul li:hover > ul {display:block;}
+nav {position: sticky; background:white;
+   height: 40px;
+   line-height: 40px;
+}
+
+nav ul li ul {position: absolute;}
+
+ nav ul li ul li {float:none; position: relative; padding: 20px;}
+
+ nav ul li:hover {background:white;}
+
+ nav ul li a:hover {color:blue;}
+
+ nav ul li ul  li ul {left:100%; top: 0;
+	width: 250px;
+    
+}
+
+
+
+nav ul {float: right; padding-right: 60px;}
+
+
+.kanan {float: right; margin-top: -60px; left: -20px;}
+
+.log {width: 1535px; height: 700px; background: white;}
+.logkir {width: 1000px; height: 800px; float: left;}
+.logkan {width: 535px; height: 800px; float: right; background: #cfcece;}
+.klm {width: 400px; height: 550px; background: white; margin-top: 100px; margin-left: 50px; border-radius: 7px;
+      box-shadow: inset 2px 2px 2px rgba(0,0,0,0.4);
+}
+.log img { width: 1000px; height: 800px; } 
+
+.klm h3 {padding-top: 35px; margin-left: 30px; font-family: arial;}
+
+input {width: 300px; height: 45px; border-radius: 5px; margin-top: 40px; margin-left: 30px; padding-left: 10px; border:2px solid black;}
+
+.button button {border: 2px solid blue; width: 315px; height: 40px; font-size: 13px; float: left; font-family: arial;
+   background: blue; color : white;  text-align: center;transition: 0.5s background ease-out, 0.5s transform ease-in 0.5s;
+    cursor: pointer; margin-top: 50px; margin-left: 30px; border-radius: 7px;
+   
+}
+
+button:hover {background: none; color: blue;}
+
+h5 { margin-top: 130px; text-align: center; margin-left: -30px;}
+
+.lg {width: 310px; height: 45px; border: 2px solid black; margin-left: 30px; margin-top: 25px; border-radius: 7px; cursor:pointer;}
+
+.lg img { width: 30px; height: 30px; margin: 6px -15px 4px 20px; float: left;}
+
+.lg p{text-align: center; margin-top: 13px;  }
+
+.lg:hover { background: silver;}
